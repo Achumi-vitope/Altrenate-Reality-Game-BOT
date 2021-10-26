@@ -1,0 +1,46 @@
+body
+{
+	background-color: black;
+}
+
+p{
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+
+}
+
+hr {
+	border: none;
+	background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	width: 40%;
+	height: 2px;
+	float: left;
+}
+
+tr{
+	border: solid 2px red;
+}
+
+th 
+{
+	border: solid 2px white;
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	padding: 15px;
+}
+
+td{
+	border: solid 2px white;
+	color: white;
+	font-family: monospace;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.unq{
+	border: none;
+	background: red;
+	width: 100%;
+}

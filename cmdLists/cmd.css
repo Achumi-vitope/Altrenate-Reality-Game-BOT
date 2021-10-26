@@ -1,0 +1,54 @@
+body{
+	background-color: black;
+}
+
+/* sheet */
+table{
+	border: solid 2px black;
+	color: white;
+	padding: 10px;
+
+}
+
+th{
+	border: solid 2px white;
+	padding: 15px;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+td{
+	border: solid 2px white;
+	padding: 10px;
+	font-family: monospace;
+	font-size;	
+}
+
+/*animation*/
+hr {
+	border: none;
+	background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	width: 60%;
+	height: 2px;
+	float: left;
+	animation: gradient 3s ease infinite;
+}
+
+
+/*Notes*/
+
+p{
+	color: white;
+	font-family: sans-serif;
+}
+
+ul{
+	color: white;
+	font-family: monospace;
+	color: yellow;
+}
+
+.head{
+	color: red;
+	font-size: 20px;
+}

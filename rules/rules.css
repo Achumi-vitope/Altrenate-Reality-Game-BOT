@@ -1,0 +1,32 @@
+body
+{
+	background-color: black;
+}
+
+h5
+{
+	text-align: center;
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+hr {
+	border: none;
+	background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	width: 70%;
+	height: 2px;
+	animation: gradient 3s ease infinite;
+}
+
+ol
+{
+	border: solid 2px red;
+}
+
+li{
+	color: white;
+	font-family: monospace;
+	font-size: 15px;
+	padding: 10px;
+}

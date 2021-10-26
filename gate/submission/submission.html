@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Bot</title>
+
+    <link rel="stylesheet" type="text/css" href="submission.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>  
+
+<div class="container">
+  <canvas id="c"></canvas>
+  <div class="brand-title">A-R-G</div>
+  <div class="inputs">
+    <form name = "contact" method="POST" data-netlify="true">
+    <label>USERNAME</label>
+    <input type="text" id = "name" required="required">
+    <label>ID</label>
+    <input type="number" id = "ide" required><br>
+    <input type="submit" value = "log in" id = "chk" onclick ="return check()" name="sub">
+  </form>
+  </div>
+     <p>If you're seeing this, you enetered the KEY correctly. Now, submit your ID and USERNAME so that I can know.</p>
+</div>
+</body>
+  <script src = "submission.js"></script> 
+  <script src = "submissionPass.js"></script>
+</html>
